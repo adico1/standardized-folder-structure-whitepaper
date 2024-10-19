@@ -1,5 +1,5 @@
 # Java Banking Module
-
+```
 banking-module/
 ├── src/
 │   ├── main/
@@ -42,6 +42,7 @@ banking-module/
 │                   ├── shared/
 │                   └── features/
 └── pom.xml
+```
 
 This Java banking module demonstrates:
 - Compliance and security concerns with dedicated services
