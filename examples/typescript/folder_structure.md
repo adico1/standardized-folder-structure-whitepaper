@@ -1,3 +1,4 @@
+```
 e-commerce-platform/
 ├── src/
 │   ├── shared/ (shrd)
@@ -71,3 +72,4 @@ e-commerce-platform/
 └── scripts/
     ├── build.sh
     └── deploy.sh
+```

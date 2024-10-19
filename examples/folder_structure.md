@@ -1,3 +1,4 @@
+``` 
 examples/
 ├── java/
 │   └── banking-module/
@@ -9,3 +10,4 @@ examples/
 │   └── microservices-module/
 └── rust/
     └── high-performance-module/
+```
