@@ -12,11 +12,9 @@ As the saying goes, **"Where there is confusion, the solution is to place one co
 
 Software engineering, unlike other traditional engineering disciplines, lacks a widely accepted, formalized blueprint for organizing code. While fields such as civil and mechanical engineering rely on well-established standards and blueprints, software engineering is more decentralized and fragmented in its approach. This decentralization results in a lack of cohesive practices for organizing and structuring code, making it difficult to maintain long-term solutions as projects scale [1], [2].
 
-As software projects grow in complexity, teams face increased technical debt, scalability issues, and inconsistent architectures. Object-Oriented Programming (OOP), once heralded for promoting modularity and encapsulation, has often resulted in **over-architecting**, where deeply nested class hierarchies and excessive inheritance create rigid, hard-to-refactor systems. These problems are exacerbated by the lack of a universally accepted project structure, leading to inconsistent architectures and difficulties in maintaining and scaling systems [4], [1], [5].
+As software projects grow in complexity, teams face increased technical debt, scalability issues, and inconsistent architectures. Object-Oriented Programming (OOP), once heralded for promoting modularity and encapsulation, has often resulted in **over-architecting**, where deeply nested class hierarchies and excessive inheritance create rigid, hard-to-refactor systems. These problems are exacerbated by the lack of a universally accepted project structure, leading to inconsistent architectures and difficulties in maintaining and scaling systems [3], [1], [4].
 
 In contrast to traditional Object-Oriented Programming (OOP), which often results in complex, tightly coupled systems, this paper proposes a **universal folder structure** that promotes modularity and scalability. This paradigm shift away from OOP encourages a more **feature-based** organizational model, where code is grouped by functionality rather than by class inheritance. By structuring projects in this way, we can address common challenges such as technical debt, inconsistent architectures, and the need for scalable, maintainable solutions.
-
-Although formal methods such as the B method or Z notation exist in niche applications, they are not widely adopted across the discipline [3]. Instead, this paper argues for the adoption of a practical, scalable folder structure that can be applied across various software development environments and paradigms, offering a more flexible and maintainable alternative to traditional OOP practices.
 
 ---
 
@@ -193,6 +191,5 @@ The universal folder structure presented here represents a new standard for orga
 
 [1] Wiley, "Software Engineering: A Discipline Like No Other," Wiley, 2023. Available: https://catalogimages.wiley.com.
 [2] SEI CMU, "Systems Engineering and Software Engineering: Collaborating for the Smart Systems of the Future," SEI CMU, 2023. Available: https://insights.sei.cmu.edu.
-[3] Software Hut, "Safe by Design: Examples of Formal Methods in Software Engineering," Software Hut, 2023. Available: https://softwarehut.com.
-[4] McKinsey & Company, "Managing Technical Debt: The Key to Better Software Delivery," McKinsey, 2023. Available: https://mckinsey.com.
-[5] ThoughtWorks, "Technology Radar: Navigating Complex Software Architectures," ThoughtWorks, 2023. Available: https://thoughtworks.com.
+[3] McKinsey & Company, "Managing Technical Debt: The Key to Better Software Delivery," McKinsey, 2023. Available: https://mckinsey.com.
+[4] ThoughtWorks, "Technology Radar: Navigating Complex Software Architectures," ThoughtWorks, 2023. Available: https://thoughtworks.com.
