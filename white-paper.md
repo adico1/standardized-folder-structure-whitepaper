@@ -2,9 +2,9 @@
 
 ## Abstract
 
-This white paper introduces a **universal folder structure** for organizing code in software projects, emphasizing **modularity**, **separation of concerns**, and **scalability**. It addresses common challenges such as **technical debt**, **inconsistent architecture**, and the need for a paradigm shift away from **Object-Oriented Programming (OOP)**. OOP, while initially developed to promote modularity and reuse, often leads to over-architecting and rigid class hierarchies, complicating long-term maintenance. By adopting this universal folder structure, development teams can work toward the holy grail of **"same code"**—a consistent and predictable codebase across all developers—reducing technical debt and improving scalability across diverse platforms and frameworks. Given the **procedural nature** of this structure, reducing the complexity of OOP from the design leads to **more accurate development estimations** and simplified workflows.
+This white paper introduces a **universal folder structure** for organizing code in software projects, emphasizing **modularity**, **separation of concerns**, and **scalability**. It addresses common challenges such as **technical debt**, **inconsistent architecture**, and the need for a paradigm shift away from **Object-Oriented Programming (OOP)**. While OOP was initially developed to promote modularity and reuse, it often leads to over-architecting and rigid class hierarchies, complicating long-term maintenance. By adopting this universal folder structure, development teams can work toward achieving **"same code"**—a consistent and predictable codebase used across all developers—thereby reducing technical debt and improving scalability across diverse platforms and frameworks. The **procedural nature** of this structure simplifies development by reducing the complexity introduced by OOP, leading to **more accurate development estimations** and streamlined workflows.
 
-As the saying goes, **"Where there is confusion, the solution is to place one cornerstone and the rest will align around it."** This universal folder structure serves as that cornerstone, providing a foundation around which scalable and maintainable code can be built, enabling long-term success in software development and future standardizations.
+Just as a well-laid foundation ensures the stability of a building, this universal folder structure provides a solid base upon which scalable and maintainable code can be built, enabling long-term success in software development and future standardizations.
 
 ---
 
@@ -12,9 +12,15 @@ As the saying goes, **"Where there is confusion, the solution is to place one co
 
 Software engineering, unlike other traditional engineering disciplines, lacks a widely accepted, formalized blueprint for organizing code. While fields such as civil and mechanical engineering rely on well-established standards and blueprints, software engineering is more decentralized and fragmented in its approach. This decentralization results in a lack of cohesive practices for organizing and structuring code, making it difficult to maintain long-term solutions as projects scale [1], [2].
 
-As software projects grow in complexity, teams face increased technical debt, scalability issues, and inconsistent architectures. Object-Oriented Programming (OOP), once heralded for promoting modularity and encapsulation, has often resulted in **over-architecting**, where deeply nested class hierarchies and excessive inheritance create rigid, hard-to-refactor systems. These problems are exacerbated by the lack of a universally accepted project structure, leading to inconsistent architectures and difficulties in maintaining and scaling systems [3], [1], [4].
+In many ways, software today allows for significant creativity, which can sometimes lead to inefficiencies if not properly structured. Much like building furniture that serves its purpose but suffers from structural flaws, software can be written in a way that technically functions but gradually accumulates **technical debt**. When developers write non-standard or overly complex code, it can lead to systems that function but are increasingly difficult to maintain as complexity builds over time.
 
-In contrast to traditional Object-Oriented Programming (OOP), which often results in complex, tightly coupled systems, this paper proposes a **universal folder structure** that promotes modularity and scalability. This paradigm shift away from OOP encourages a more **feature-based** organizational model, where code is grouped by functionality rather than by class inheritance. By structuring projects in this way, we can address common challenges such as technical debt, inconsistent architectures, and the need for scalable, maintainable solutions.
+As software projects grow in complexity, teams face increased technical debt, scalability issues, and inconsistent architectures. **Object-Oriented Programming (OOP)**, once heralded for promoting modularity and encapsulation, often results in **over-architecting**, where deeply nested class hierarchies and excessive inheritance create rigid, hard-to-refactor systems. These problems are compounded by the absence of a universally accepted project structure, leading to inconsistent architectures and difficulties in maintaining and scaling systems [3], [1], [4].
+
+However, if we consider **well-crafted code** as code that adheres to standardized practices at the **high-level**, **intermediate-level**, and **instruction-level**, we can establish a framework that developers can follow. In this model, the **intermediate-level** corresponds to the **single responsibilities** of features, while the rest of the code falls into place naturally through a consistent structure. By enforcing one unified strategy based on a universal folder structure and **procedural code**, developers can avoid accumulating technical debt. This approach ensures **clear implementation layers**, with distinct **single responsibilities** for groups of instructions.
+
+When a developer identifies that a portion of code handles more than one responsibility, they can simply create a new folder and split the code into two additional files, promoting **modularity** and **scalability**. This procedural approach, akin to other engineering disciplines, reduces tech debt and enhances long-term maintainability.
+
+This paper advocates for the adoption of a practical, scalable folder structure that can be applied across various software development environments and paradigms, offering a more flexible and maintainable alternative to traditional OOP practices.
 
 ---
 
@@ -190,6 +196,9 @@ The universal folder structure presented here represents a new standard for orga
 ## References
 
 [1] Wiley, "Software Engineering: A Discipline Like No Other," Wiley, 2023. Available: https://catalogimages.wiley.com.
+
 [2] SEI CMU, "Systems Engineering and Software Engineering: Collaborating for the Smart Systems of the Future," SEI CMU, 2023. Available: https://insights.sei.cmu.edu.
+
 [3] McKinsey & Company, "Managing Technical Debt: The Key to Better Software Delivery," McKinsey, 2023. Available: https://mckinsey.com.
+
 [4] ThoughtWorks, "Technology Radar: Navigating Complex Software Architectures," ThoughtWorks, 2023. Available: https://thoughtworks.com.
