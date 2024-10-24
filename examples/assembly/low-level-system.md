@@ -1,46 +1,29 @@
 # Assembly Low-Level System Module
 ```
-low-level-system/
-├── src/
-│   ├── shared/ (shrd)
-│   │   ├── macros/
-│   │   │   ├── io_macros.asm
-│   │   │   └── math_macros.asm
-│   │   ├── constants/
-│   │   │   └── system_constants.asm
-│   │   └── utilities/ (util)
-│   │       ├── string_utils.asm
-│   │       └── memory_utils.asm
-│   ├── features/
-│   │   ├── shared/
-│   │   │   └── interrupt_handlers/
-│   │   │       └── common_interrupts.asm
-│   │   ├── boot/
-│   │   │   ├── boot_sector.asm
-│   │   │   └── bootloader.asm
-│   │   ├── kernel/
-│   │   │   ├── kernel_entry.asm
-│   │   │   ├── memory_management.asm
-│   │   │   └── process_scheduler.asm
-│   │   ├── drivers/
-│   │   │   ├── keyboard_driver.asm
-│   │   │   └── display_driver.asm
-│   │   └── filesystem/
-│   │       ├── file_operations.asm
-│   │       └── directory_management.asm
-│   └── main/
-│       └── system_main.asm
-├── include/
-│   └── hardware_specs.inc
-├── tests/
-│   ├── unit/
-│   │   └── test_memory_utils.asm
-│   └── integration/
-│       └── test_boot_process.asm
-├── tools/
-│   ├── assembler.sh
-│   └── emulator.sh
-└── Makefile
+/project-root
+  /src
+    /main
+      - main.s               # Main entry point
+    /features
+      /shared
+        - string_util.s      # String utility function shared by math and io
+      /math
+        - add.s              # Simple addition feature
+      /io
+        - print.s            # IO feature to print a message to stdout
+    /shared
+      - constants.s          # Shared constants
+      - utils.s              # General utilities
+  /tests
+    /unit
+      - math_tests.s         # Unit tests for math
+      - io_tests.s           # Unit tests for IO
+  /docs
+    - additional_docs.md
+  /platform
+    - platform_specific_file.s
+  /README.md
+  /Makefile                  # Makefile for the project
 ```
 This Assembly low-level system module demonstrates:
 
