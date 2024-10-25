@@ -28,19 +28,21 @@ Here’s a look at the CORE layout with **features/** as the primary organizatio
 
 ```mermaid
 flowchart TD
-    A[Project Root] --> B[src]
+    A[Project Root]
+    A --> B[src]
     A --> C[config]
     A --> D[tests]
     A --> E[deploy]
-    B --> F[features]
-    F --> F1[feature1]
-    F1 --> F1a[orchestrators]
-    F1 --> F1b[components]
-    F1 --> F1c[dependencies]
-    B --> G[main]
-    B --> H[common]
 ```
 
+```mermaid
+flowchart TD
+    src --> F[features]
+    F --> F1[app_pages_manager]
+    F --> F2[calculator]
+    src --> G[main]
+    src --> H[common]
+```
 ---
 
 ## CORE in Action: Key Advantages
